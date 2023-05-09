@@ -1,0 +1,30 @@
+time:Tue May  9 23:14:52 2023, batchsize:128, epoch:1
+Validation set: Average loss: 0.3492, Accuracy: 8964/10000 (90%)
+
+time:Tue May  9 23:14:54 2023, batchsize:128, epoch:2
+Validation set: Average loss: 0.2140, Accuracy: 9362/10000 (94%)
+
+time:Tue May  9 23:14:57 2023, batchsize:128, epoch:3
+Validation set: Average loss: 0.1468, Accuracy: 9568/10000 (96%)
+
+time:Tue May  9 23:14:59 2023, batchsize:128, epoch:4
+Validation set: Average loss: 0.1047, Accuracy: 9677/10000 (97%)
+
+time:Tue May  9 23:15:01 2023, batchsize:128, epoch:5
+Validation set: Average loss: 0.0790, Accuracy: 9767/10000 (98%)
+
+time:Tue May  9 23:15:03 2023, batchsize:128, epoch:6
+Validation set: Average loss: 0.0571, Accuracy: 9835/10000 (98%)
+
+time:Tue May  9 23:15:05 2023, batchsize:128, epoch:7
+Validation set: Average loss: 0.0439, Accuracy: 9879/10000 (99%)
+
+time:Tue May  9 23:15:07 2023, batchsize:128, epoch:8
+Validation set: Average loss: 0.0289, Accuracy: 9927/10000 (99%)
+
+time:Tue May  9 23:15:09 2023, batchsize:128, epoch:9
+Validation set: Average loss: 0.0261, Accuracy: 9942/10000 (99%)
+
+time:Tue May  9 23:15:11 2023, batchsize:128, epoch:10
+Validation set: Average loss: 0.0231, Accuracy: 9941/10000 (99%)
+
