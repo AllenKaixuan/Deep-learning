@@ -18,12 +18,12 @@ print('Using PyTorch version:', torch.__version__, ' Device:', device)
 
 
 
-epochs = 10
+epochs = 20
 batch_size = 128
 
 train_dataset = datasets.MNIST('./data', 
-                               train=False, 
-                               download=False, 
+                               train=True, 
+                               download=True, 
                                transform=transforms.ToTensor())
 
 validation_dataset = datasets.MNIST('./data', 
@@ -49,7 +49,7 @@ class Net(nn.Module):      # inherit from nn.Module
     def __init__(self):
         super(Net, self).__init__()
         self.fc1 = nn.Linear(28*28, 256)  # weight: [28*28, 50]   bias: [50, ]
-        self.fc1_drop = nn.Dropout(0.)
+        self.fc1_drop = nn.Dropout(0.1)
         
         self.fc2 = nn.Linear(256, 196)
         self.fc2_drop = nn.Dropout(0.1)
@@ -76,7 +76,7 @@ class Net(nn.Module):      # inherit from nn.Module
 def train(epoch, log_interval=200):
     # Set model to training mode
     model.train()
-    if epoch < 8:
+    if epoch < 16:
         optimizer = adam_optimizer
     # 切换到 SGD 优化器进行后续训练
     else:
