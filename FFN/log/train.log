@@ -1,0 +1,366 @@
+2023-05-13 11:44:42,047 INFO: FFN(
+  (fc1): Linear(in_features=784, out_features=256, bias=True)
+  (fc1_drop): Dropout(p=0.3, inplace=False)
+  (fc2): Linear(in_features=256, out_features=196, bias=True)
+  (fc2_drop): Dropout(p=0.3, inplace=False)
+  (fc3): Linear(in_features=196, out_features=128, bias=True)
+  (fc3_drop): Dropout(p=0.3, inplace=False)
+  (fc4): Linear(in_features=128, out_features=10, bias=True)
+)
+2023-05-13 11:44:42,048 INFO: 
+batchsize:128, epoch:1, drop:0.3
+2023-05-13 11:44:43,795 INFO: Train Epoch: 1 [0/60000 (0%)]	Loss: 2.315131
+2023-05-13 11:44:46,324 INFO: Train Epoch: 1 [25600/60000 (43%)]	Loss: 1.026041
+2023-05-13 11:44:48,840 INFO: Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.495648
+2023-05-13 11:44:50,658 INFO: Validation set: Average loss: 0.3356, Accuracy: 8989/10000 (90%)
+2023-05-13 11:44:50,663 INFO: Finish training!
+2023-05-13 11:46:08,275 INFO: FFN(
+  (fc1): Linear(in_features=784, out_features=256, bias=True)
+  (fc1_drop): Dropout(p=0.3, inplace=False)
+  (fc2): Linear(in_features=256, out_features=196, bias=True)
+  (fc2_drop): Dropout(p=0.3, inplace=False)
+  (fc3): Linear(in_features=196, out_features=128, bias=True)
+  (fc3_drop): Dropout(p=0.3, inplace=False)
+  (fc4): Linear(in_features=128, out_features=10, bias=True)
+)
+2023-05-13 11:46:08,276 INFO: 
+batchsize:128, epoch:1, drop:0.3
+2023-05-13 11:46:09,760 INFO: Train Epoch: 1 [0/60000 (0%)]	Loss: 2.309602
+2023-05-13 11:46:12,458 INFO: Train Epoch: 1 [25600/60000 (43%)]	Loss: 0.336814
+2023-05-13 11:46:15,280 INFO: Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.263598
+2023-05-13 11:46:17,224 INFO: Validation set: Average loss: 0.1450, Accuracy: 9559/10000 (96%)
+2023-05-13 11:46:17,225 INFO: 
+batchsize:128, epoch:2, drop:0.3
+2023-05-13 11:46:17,248 INFO: Train Epoch: 2 [0/60000 (0%)]	Loss: 0.201467
+2023-05-13 11:46:20,201 INFO: Train Epoch: 2 [25600/60000 (43%)]	Loss: 0.161361
+2023-05-13 11:46:23,145 INFO: Train Epoch: 2 [51200/60000 (85%)]	Loss: 0.209220
+2023-05-13 11:46:25,149 INFO: Validation set: Average loss: 0.1079, Accuracy: 9666/10000 (97%)
+2023-05-13 11:46:25,150 INFO: 
+batchsize:128, epoch:3, drop:0.3
+2023-05-13 11:46:25,175 INFO: Train Epoch: 3 [0/60000 (0%)]	Loss: 0.124748
+2023-05-13 11:46:28,097 INFO: Train Epoch: 3 [25600/60000 (43%)]	Loss: 0.141076
+2023-05-13 11:46:31,040 INFO: Train Epoch: 3 [51200/60000 (85%)]	Loss: 0.153910
+2023-05-13 11:46:32,947 INFO: Validation set: Average loss: 0.0863, Accuracy: 9732/10000 (97%)
+2023-05-13 11:46:32,947 INFO: 
+batchsize:128, epoch:4, drop:0.3
+2023-05-13 11:46:32,969 INFO: Train Epoch: 4 [0/60000 (0%)]	Loss: 0.238318
+2023-05-13 11:46:35,778 INFO: Train Epoch: 4 [25600/60000 (43%)]	Loss: 0.110976
+2023-05-13 11:46:38,620 INFO: Train Epoch: 4 [51200/60000 (85%)]	Loss: 0.033648
+2023-05-13 11:46:40,538 INFO: Validation set: Average loss: 0.0849, Accuracy: 9738/10000 (97%)
+2023-05-13 11:46:40,538 INFO: 
+batchsize:128, epoch:5, drop:0.3
+2023-05-13 11:46:40,559 INFO: Train Epoch: 5 [0/60000 (0%)]	Loss: 0.154156
+2023-05-13 11:46:43,341 INFO: Train Epoch: 5 [25600/60000 (43%)]	Loss: 0.040875
+2023-05-13 11:46:46,093 INFO: Train Epoch: 5 [51200/60000 (85%)]	Loss: 0.016308
+2023-05-13 11:46:48,053 INFO: Validation set: Average loss: 0.0715, Accuracy: 9773/10000 (98%)
+2023-05-13 11:46:48,054 INFO: 
+batchsize:128, epoch:6, drop:0.3
+2023-05-13 11:46:48,077 INFO: Train Epoch: 6 [0/60000 (0%)]	Loss: 0.061492
+2023-05-13 11:46:50,899 INFO: Train Epoch: 6 [25600/60000 (43%)]	Loss: 0.066404
+2023-05-13 11:46:53,695 INFO: Train Epoch: 6 [51200/60000 (85%)]	Loss: 0.102381
+2023-05-13 11:46:55,564 INFO: Validation set: Average loss: 0.0735, Accuracy: 9777/10000 (98%)
+2023-05-13 11:46:55,564 INFO: 
+batchsize:128, epoch:7, drop:0.3
+2023-05-13 11:46:55,588 INFO: Train Epoch: 7 [0/60000 (0%)]	Loss: 0.074609
+2023-05-13 11:46:58,576 INFO: Train Epoch: 7 [25600/60000 (43%)]	Loss: 0.123328
+2023-05-13 11:47:01,556 INFO: Train Epoch: 7 [51200/60000 (85%)]	Loss: 0.035718
+2023-05-13 11:47:03,457 INFO: Validation set: Average loss: 0.0664, Accuracy: 9803/10000 (98%)
+2023-05-13 11:47:03,458 INFO: 
+batchsize:128, epoch:8, drop:0.3
+2023-05-13 11:47:03,489 INFO: Train Epoch: 8 [0/60000 (0%)]	Loss: 0.133139
+2023-05-13 11:47:06,343 INFO: Train Epoch: 8 [25600/60000 (43%)]	Loss: 0.040129
+2023-05-13 11:47:09,220 INFO: Train Epoch: 8 [51200/60000 (85%)]	Loss: 0.045830
+2023-05-13 11:47:11,227 INFO: Validation set: Average loss: 0.0597, Accuracy: 9827/10000 (98%)
+2023-05-13 11:47:11,227 INFO: 
+batchsize:128, epoch:9, drop:0.3
+2023-05-13 11:47:11,248 INFO: Train Epoch: 9 [0/60000 (0%)]	Loss: 0.087532
+2023-05-13 11:47:14,003 INFO: Train Epoch: 9 [25600/60000 (43%)]	Loss: 0.026167
+2023-05-13 11:47:16,721 INFO: Train Epoch: 9 [51200/60000 (85%)]	Loss: 0.075351
+2023-05-13 11:47:18,678 INFO: Validation set: Average loss: 0.0598, Accuracy: 9817/10000 (98%)
+2023-05-13 11:47:18,678 INFO: 
+batchsize:128, epoch:10, drop:0.3
+2023-05-13 11:47:18,699 INFO: Train Epoch: 10 [0/60000 (0%)]	Loss: 0.072817
+2023-05-13 11:47:21,414 INFO: Train Epoch: 10 [25600/60000 (43%)]	Loss: 0.051735
+2023-05-13 11:47:24,040 INFO: Train Epoch: 10 [51200/60000 (85%)]	Loss: 0.085824
+2023-05-13 11:47:25,871 INFO: Validation set: Average loss: 0.0579, Accuracy: 9834/10000 (98%)
+2023-05-13 11:47:25,875 INFO: Finish training!
+2023-05-13 12:10:50,430 INFO: FFN(
+  (fc1): Linear(in_features=784, out_features=256, bias=True)
+  (fc1_drop): Dropout(p=0.3, inplace=False)
+  (fc2): Linear(in_features=256, out_features=196, bias=True)
+  (fc2_drop): Dropout(p=0.3, inplace=False)
+  (fc3): Linear(in_features=196, out_features=128, bias=True)
+  (fc3_drop): Dropout(p=0.3, inplace=False)
+  (fc4): Linear(in_features=128, out_features=10, bias=True)
+)
+2023-05-13 12:10:50,432 INFO: 
+batchsize:128, epoch:1, drop:0.3
+2023-05-13 12:10:52,583 INFO: Train Epoch: 1 [0/60000 (0%)]	Loss: 2.300152
+2023-05-13 12:10:55,346 INFO: Train Epoch: 1 [25600/60000 (43%)]	Loss: 0.381522
+2023-05-13 12:10:58,216 INFO: Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.285950
+2023-05-13 12:11:00,119 INFO: Validation set: Average loss: 0.1506, Accuracy: 9543/10000 (95%)
+2023-05-13 12:11:00,119 INFO: 
+batchsize:128, epoch:2, drop:0.3
+2023-05-13 12:11:00,141 INFO: Train Epoch: 2 [0/60000 (0%)]	Loss: 0.318443
+2023-05-13 12:11:02,967 INFO: Train Epoch: 2 [25600/60000 (43%)]	Loss: 0.097984
+2023-05-13 12:11:05,758 INFO: Train Epoch: 2 [51200/60000 (85%)]	Loss: 0.275318
+2023-05-13 12:11:07,654 INFO: Validation set: Average loss: 0.1061, Accuracy: 9678/10000 (97%)
+2023-05-13 12:11:07,655 INFO: 
+batchsize:128, epoch:3, drop:0.3
+2023-05-13 12:11:07,674 INFO: Train Epoch: 3 [0/60000 (0%)]	Loss: 0.087976
+2023-05-13 12:11:10,476 INFO: Train Epoch: 3 [25600/60000 (43%)]	Loss: 0.048452
+2023-05-13 12:11:13,438 INFO: Train Epoch: 3 [51200/60000 (85%)]	Loss: 0.078359
+2023-05-13 12:11:15,360 INFO: Validation set: Average loss: 0.0860, Accuracy: 9737/10000 (97%)
+2023-05-13 12:11:15,361 INFO: 
+batchsize:128, epoch:4, drop:0.3
+2023-05-13 12:11:15,382 INFO: Train Epoch: 4 [0/60000 (0%)]	Loss: 0.112997
+2023-05-13 12:11:18,173 INFO: Train Epoch: 4 [25600/60000 (43%)]	Loss: 0.255072
+2023-05-13 12:11:20,975 INFO: Train Epoch: 4 [51200/60000 (85%)]	Loss: 0.062060
+2023-05-13 12:11:22,852 INFO: Validation set: Average loss: 0.0851, Accuracy: 9744/10000 (97%)
+2023-05-13 12:11:22,852 INFO: 
+batchsize:128, epoch:5, drop:0.3
+2023-05-13 12:11:22,874 INFO: Train Epoch: 5 [0/60000 (0%)]	Loss: 0.106356
+2023-05-13 12:11:25,649 INFO: Train Epoch: 5 [25600/60000 (43%)]	Loss: 0.092236
+2023-05-13 12:11:28,477 INFO: Train Epoch: 5 [51200/60000 (85%)]	Loss: 0.080728
+2023-05-13 12:11:30,386 INFO: Validation set: Average loss: 0.0785, Accuracy: 9755/10000 (98%)
+2023-05-13 12:11:30,386 INFO: 
+batchsize:128, epoch:6, drop:0.3
+2023-05-13 12:11:30,408 INFO: Train Epoch: 6 [0/60000 (0%)]	Loss: 0.140930
+2023-05-13 12:11:33,236 INFO: Train Epoch: 6 [25600/60000 (43%)]	Loss: 0.073799
+2023-05-13 12:11:36,100 INFO: Train Epoch: 6 [51200/60000 (85%)]	Loss: 0.206163
+2023-05-13 12:11:37,982 INFO: Validation set: Average loss: 0.0763, Accuracy: 9779/10000 (98%)
+2023-05-13 12:11:37,983 INFO: 
+batchsize:128, epoch:7, drop:0.3
+2023-05-13 12:11:38,004 INFO: Train Epoch: 7 [0/60000 (0%)]	Loss: 0.070157
+2023-05-13 12:11:40,898 INFO: Train Epoch: 7 [25600/60000 (43%)]	Loss: 0.062427
+2023-05-13 12:11:43,661 INFO: Train Epoch: 7 [51200/60000 (85%)]	Loss: 0.055206
+2023-05-13 12:11:45,525 INFO: Validation set: Average loss: 0.0696, Accuracy: 9804/10000 (98%)
+2023-05-13 12:11:45,525 INFO: 
+batchsize:128, epoch:8, drop:0.3
+2023-05-13 12:11:45,545 INFO: Train Epoch: 8 [0/60000 (0%)]	Loss: 0.058460
+2023-05-13 12:11:48,253 INFO: Train Epoch: 8 [25600/60000 (43%)]	Loss: 0.039855
+2023-05-13 12:11:50,948 INFO: Train Epoch: 8 [51200/60000 (85%)]	Loss: 0.022413
+2023-05-13 12:11:52,772 INFO: Validation set: Average loss: 0.0622, Accuracy: 9819/10000 (98%)
+2023-05-13 12:11:52,773 INFO: 
+batchsize:128, epoch:9, drop:0.3
+2023-05-13 12:11:52,793 INFO: Train Epoch: 9 [0/60000 (0%)]	Loss: 0.044423
+2023-05-13 12:11:55,473 INFO: Train Epoch: 9 [25600/60000 (43%)]	Loss: 0.063533
+2023-05-13 12:11:58,169 INFO: Train Epoch: 9 [51200/60000 (85%)]	Loss: 0.074073
+2023-05-13 12:12:00,001 INFO: Validation set: Average loss: 0.0612, Accuracy: 9827/10000 (98%)
+2023-05-13 12:12:00,001 INFO: 
+batchsize:128, epoch:10, drop:0.3
+2023-05-13 12:12:00,023 INFO: Train Epoch: 10 [0/60000 (0%)]	Loss: 0.020878
+2023-05-13 12:12:02,747 INFO: Train Epoch: 10 [25600/60000 (43%)]	Loss: 0.016649
+2023-05-13 12:12:05,424 INFO: Train Epoch: 10 [51200/60000 (85%)]	Loss: 0.029547
+2023-05-13 12:12:07,253 INFO: Validation set: Average loss: 0.0616, Accuracy: 9825/10000 (98%)
+2023-05-13 12:12:07,257 INFO: Finish training!
+2023-05-13 12:12:26,713 INFO: FFN(
+  (fc1): Linear(in_features=784, out_features=256, bias=True)
+  (fc1_drop): Dropout(p=0.2, inplace=False)
+  (fc2): Linear(in_features=256, out_features=196, bias=True)
+  (fc2_drop): Dropout(p=0.2, inplace=False)
+  (fc3): Linear(in_features=196, out_features=128, bias=True)
+  (fc3_drop): Dropout(p=0.2, inplace=False)
+  (fc4): Linear(in_features=128, out_features=10, bias=True)
+)
+2023-05-13 12:12:26,715 INFO: 
+batchsize:128, epoch:1, drop:0.2
+2023-05-13 12:12:28,361 INFO: Train Epoch: 1 [0/60000 (0%)]	Loss: 2.297495
+2023-05-13 12:12:31,406 INFO: Train Epoch: 1 [25600/60000 (43%)]	Loss: 0.222411
+2023-05-13 12:12:34,208 INFO: Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.186801
+2023-05-13 12:12:36,132 INFO: Validation set: Average loss: 0.1463, Accuracy: 9556/10000 (96%)
+2023-05-13 12:12:36,133 INFO: 
+batchsize:128, epoch:2, drop:0.2
+2023-05-13 12:12:36,155 INFO: Train Epoch: 2 [0/60000 (0%)]	Loss: 0.202696
+2023-05-13 12:12:39,022 INFO: Train Epoch: 2 [25600/60000 (43%)]	Loss: 0.166520
+2023-05-13 12:12:41,863 INFO: Train Epoch: 2 [51200/60000 (85%)]	Loss: 0.102616
+2023-05-13 12:12:43,796 INFO: Validation set: Average loss: 0.1052, Accuracy: 9663/10000 (97%)
+2023-05-13 12:12:43,796 INFO: 
+batchsize:128, epoch:3, drop:0.2
+2023-05-13 12:12:43,818 INFO: Train Epoch: 3 [0/60000 (0%)]	Loss: 0.070354
+2023-05-13 12:12:46,781 INFO: Train Epoch: 3 [25600/60000 (43%)]	Loss: 0.120864
+2023-05-13 12:12:49,707 INFO: Train Epoch: 3 [51200/60000 (85%)]	Loss: 0.123686
+2023-05-13 12:12:51,732 INFO: Validation set: Average loss: 0.0879, Accuracy: 9735/10000 (97%)
+2023-05-13 12:12:51,733 INFO: 
+batchsize:128, epoch:4, drop:0.2
+2023-05-13 12:12:51,756 INFO: Train Epoch: 4 [0/60000 (0%)]	Loss: 0.096294
+2023-05-13 12:12:54,716 INFO: Train Epoch: 4 [25600/60000 (43%)]	Loss: 0.036917
+2023-05-13 12:12:57,710 INFO: Train Epoch: 4 [51200/60000 (85%)]	Loss: 0.091858
+2023-05-13 12:12:59,707 INFO: Validation set: Average loss: 0.0802, Accuracy: 9759/10000 (98%)
+2023-05-13 12:12:59,707 INFO: 
+batchsize:128, epoch:5, drop:0.2
+2023-05-13 12:12:59,729 INFO: Train Epoch: 5 [0/60000 (0%)]	Loss: 0.022371
+2023-05-13 12:13:02,655 INFO: Train Epoch: 5 [25600/60000 (43%)]	Loss: 0.087605
+2023-05-13 12:13:05,658 INFO: Train Epoch: 5 [51200/60000 (85%)]	Loss: 0.111750
+2023-05-13 12:13:07,547 INFO: Validation set: Average loss: 0.0693, Accuracy: 9790/10000 (98%)
+2023-05-13 12:13:07,547 INFO: 
+batchsize:128, epoch:6, drop:0.2
+2023-05-13 12:13:07,569 INFO: Train Epoch: 6 [0/60000 (0%)]	Loss: 0.030987
+2023-05-13 12:13:10,467 INFO: Train Epoch: 6 [25600/60000 (43%)]	Loss: 0.032582
+2023-05-13 12:13:13,521 INFO: Train Epoch: 6 [51200/60000 (85%)]	Loss: 0.087243
+2023-05-13 12:13:15,438 INFO: Validation set: Average loss: 0.0643, Accuracy: 9807/10000 (98%)
+2023-05-13 12:13:15,439 INFO: 
+batchsize:128, epoch:7, drop:0.2
+2023-05-13 12:13:15,461 INFO: Train Epoch: 7 [0/60000 (0%)]	Loss: 0.051058
+2023-05-13 12:13:18,325 INFO: Train Epoch: 7 [25600/60000 (43%)]	Loss: 0.035976
+2023-05-13 12:13:21,288 INFO: Train Epoch: 7 [51200/60000 (85%)]	Loss: 0.060797
+2023-05-13 12:13:23,323 INFO: Validation set: Average loss: 0.0695, Accuracy: 9789/10000 (98%)
+2023-05-13 12:13:23,323 INFO: 
+batchsize:128, epoch:8, drop:0.2
+2023-05-13 12:13:23,345 INFO: Train Epoch: 8 [0/60000 (0%)]	Loss: 0.019449
+2023-05-13 12:13:26,273 INFO: Train Epoch: 8 [25600/60000 (43%)]	Loss: 0.006725
+2023-05-13 12:13:28,981 INFO: Train Epoch: 8 [51200/60000 (85%)]	Loss: 0.104498
+2023-05-13 12:13:30,848 INFO: Validation set: Average loss: 0.0569, Accuracy: 9839/10000 (98%)
+2023-05-13 12:13:30,848 INFO: 
+batchsize:128, epoch:9, drop:0.2
+2023-05-13 12:13:30,868 INFO: Train Epoch: 9 [0/60000 (0%)]	Loss: 0.018455
+2023-05-13 12:13:33,532 INFO: Train Epoch: 9 [25600/60000 (43%)]	Loss: 0.092843
+2023-05-13 12:13:36,247 INFO: Train Epoch: 9 [51200/60000 (85%)]	Loss: 0.008292
+2023-05-13 12:13:38,111 INFO: Validation set: Average loss: 0.0593, Accuracy: 9834/10000 (98%)
+2023-05-13 12:13:38,112 INFO: 
+batchsize:128, epoch:10, drop:0.2
+2023-05-13 12:13:38,132 INFO: Train Epoch: 10 [0/60000 (0%)]	Loss: 0.012202
+2023-05-13 12:13:40,894 INFO: Train Epoch: 10 [25600/60000 (43%)]	Loss: 0.025116
+2023-05-13 12:13:43,525 INFO: Train Epoch: 10 [51200/60000 (85%)]	Loss: 0.052380
+2023-05-13 12:13:45,360 INFO: Validation set: Average loss: 0.0583, Accuracy: 9835/10000 (98%)
+2023-05-13 12:13:45,365 INFO: Finish training!
+2023-05-13 12:16:14,940 INFO: FFN(
+  (fc1): Linear(in_features=784, out_features=256, bias=True)
+  (fc1_drop): Dropout(p=0.2, inplace=False)
+  (fc2): Linear(in_features=256, out_features=196, bias=True)
+  (fc2_drop): Dropout(p=0.2, inplace=False)
+  (fc3): Linear(in_features=196, out_features=128, bias=True)
+  (fc3_drop): Dropout(p=0.2, inplace=False)
+  (fc4): Linear(in_features=128, out_features=10, bias=True)
+)
+2023-05-13 12:16:14,941 INFO: 
+batchsize:128, epoch:1, drop:0.2
+2023-05-13 12:16:16,524 INFO: Train Epoch: 1 [0/60000 (0%)]	Loss: 2.302081
+2023-05-13 12:16:19,234 INFO: Train Epoch: 1 [25600/60000 (43%)]	Loss: 0.265059
+2023-05-13 12:16:21,937 INFO: Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.263194
+2023-05-13 12:16:23,867 INFO: Validation set: Average loss: 0.1440, Accuracy: 9584/10000 (96%)
+2023-05-13 12:16:23,867 INFO: 
+batchsize:128, epoch:2, drop:0.2
+2023-05-13 12:16:23,889 INFO: Train Epoch: 2 [0/60000 (0%)]	Loss: 0.194656
+2023-05-13 12:16:26,676 INFO: Train Epoch: 2 [25600/60000 (43%)]	Loss: 0.205917
+2023-05-13 12:16:29,479 INFO: Train Epoch: 2 [51200/60000 (85%)]	Loss: 0.131594
+2023-05-13 12:16:31,357 INFO: Validation set: Average loss: 0.1042, Accuracy: 9681/10000 (97%)
+2023-05-13 12:16:31,358 INFO: 
+batchsize:128, epoch:3, drop:0.2
+2023-05-13 12:16:31,378 INFO: Train Epoch: 3 [0/60000 (0%)]	Loss: 0.094291
+2023-05-13 12:16:34,221 INFO: Train Epoch: 3 [25600/60000 (43%)]	Loss: 0.056482
+2023-05-13 12:16:37,006 INFO: Train Epoch: 3 [51200/60000 (85%)]	Loss: 0.081595
+2023-05-13 12:16:38,923 INFO: Validation set: Average loss: 0.0871, Accuracy: 9735/10000 (97%)
+2023-05-13 12:16:38,924 INFO: 
+batchsize:128, epoch:4, drop:0.2
+2023-05-13 12:16:38,946 INFO: Train Epoch: 4 [0/60000 (0%)]	Loss: 0.019331
+2023-05-13 12:16:41,897 INFO: Train Epoch: 4 [25600/60000 (43%)]	Loss: 0.053574
+2023-05-13 12:16:44,708 INFO: Train Epoch: 4 [51200/60000 (85%)]	Loss: 0.148217
+2023-05-13 12:16:46,584 INFO: Validation set: Average loss: 0.0776, Accuracy: 9768/10000 (98%)
+2023-05-13 12:16:46,585 INFO: 
+batchsize:128, epoch:5, drop:0.2
+2023-05-13 12:16:46,604 INFO: Train Epoch: 5 [0/60000 (0%)]	Loss: 0.066871
+2023-05-13 12:16:49,458 INFO: Train Epoch: 5 [25600/60000 (43%)]	Loss: 0.022399
+2023-05-13 12:16:52,303 INFO: Train Epoch: 5 [51200/60000 (85%)]	Loss: 0.098939
+2023-05-13 12:16:54,158 INFO: Validation set: Average loss: 0.0748, Accuracy: 9766/10000 (98%)
+2023-05-13 12:16:54,159 INFO: 
+batchsize:128, epoch:6, drop:0.2
+2023-05-13 12:16:54,180 INFO: Train Epoch: 6 [0/60000 (0%)]	Loss: 0.101018
+2023-05-13 12:16:56,986 INFO: Train Epoch: 6 [25600/60000 (43%)]	Loss: 0.166443
+2023-05-13 12:16:59,753 INFO: Train Epoch: 6 [51200/60000 (85%)]	Loss: 0.049665
+2023-05-13 12:17:01,621 INFO: Validation set: Average loss: 0.0858, Accuracy: 9764/10000 (98%)
+2023-05-13 12:17:01,621 INFO: 
+batchsize:128, epoch:7, drop:0.2
+2023-05-13 12:17:01,643 INFO: Train Epoch: 7 [0/60000 (0%)]	Loss: 0.056895
+2023-05-13 12:17:04,448 INFO: Train Epoch: 7 [25600/60000 (43%)]	Loss: 0.080532
+2023-05-13 12:17:07,268 INFO: Train Epoch: 7 [51200/60000 (85%)]	Loss: 0.031059
+2023-05-13 12:17:09,165 INFO: Validation set: Average loss: 0.0626, Accuracy: 9820/10000 (98%)
+2023-05-13 12:17:09,165 INFO: 
+batchsize:128, epoch:8, drop:0.2
+2023-05-13 12:17:09,185 INFO: Train Epoch: 8 [0/60000 (0%)]	Loss: 0.044246
+2023-05-13 12:17:11,848 INFO: Train Epoch: 8 [25600/60000 (43%)]	Loss: 0.046890
+2023-05-13 12:17:14,452 INFO: Train Epoch: 8 [51200/60000 (85%)]	Loss: 0.038307
+2023-05-13 12:17:16,277 INFO: Validation set: Average loss: 0.0601, Accuracy: 9832/10000 (98%)
+2023-05-13 12:17:16,278 INFO: 
+batchsize:128, epoch:9, drop:0.2
+2023-05-13 12:17:16,298 INFO: Train Epoch: 9 [0/60000 (0%)]	Loss: 0.017585
+2023-05-13 12:17:18,956 INFO: Train Epoch: 9 [25600/60000 (43%)]	Loss: 0.068630
+2023-05-13 12:17:21,576 INFO: Train Epoch: 9 [51200/60000 (85%)]	Loss: 0.137962
+2023-05-13 12:17:23,416 INFO: Validation set: Average loss: 0.0610, Accuracy: 9838/10000 (98%)
+2023-05-13 12:17:23,417 INFO: 
+batchsize:128, epoch:10, drop:0.2
+2023-05-13 12:17:23,437 INFO: Train Epoch: 10 [0/60000 (0%)]	Loss: 0.013036
+2023-05-13 12:17:26,074 INFO: Train Epoch: 10 [25600/60000 (43%)]	Loss: 0.029989
+2023-05-13 12:17:28,725 INFO: Train Epoch: 10 [51200/60000 (85%)]	Loss: 0.011283
+2023-05-13 12:17:30,582 INFO: Validation set: Average loss: 0.0585, Accuracy: 9847/10000 (98%)
+2023-05-13 12:17:30,587 INFO: Finish training!
+2023-05-13 12:24:40,410 INFO: FFN(
+  (fc1): Linear(in_features=784, out_features=256, bias=True)
+  (fc1_drop): Dropout(p=0.2, inplace=False)
+  (fc2): Linear(in_features=256, out_features=196, bias=True)
+  (fc2_drop): Dropout(p=0.2, inplace=False)
+  (fc3): Linear(in_features=196, out_features=128, bias=True)
+  (fc3_drop): Dropout(p=0.2, inplace=False)
+  (fc4): Linear(in_features=128, out_features=10, bias=True)
+)
+2023-05-13 12:24:40,412 INFO: 
+batchsize:128, epoch:1, drop:0.2
+2023-05-13 12:24:42,049 INFO: Train Epoch: 1 [0/60000 (0%)]	Loss: 2.300777
+2023-05-13 12:24:44,762 INFO: Train Epoch: 1 [25600/60000 (43%)]	Loss: 0.295374
+2023-05-13 12:24:47,515 INFO: Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.159023
+2023-05-13 12:24:49,400 INFO: Validation set: Average loss: 0.1397, Accuracy: 9565/10000 (96%)
+2023-05-13 12:24:49,401 INFO: 
+batchsize:128, epoch:2, drop:0.2
+2023-05-13 12:24:49,424 INFO: Train Epoch: 2 [0/60000 (0%)]	Loss: 0.106283
+2023-05-13 12:24:52,191 INFO: Train Epoch: 2 [25600/60000 (43%)]	Loss: 0.101913
+2023-05-13 12:24:54,918 INFO: Train Epoch: 2 [51200/60000 (85%)]	Loss: 0.139825
+2023-05-13 12:24:56,768 INFO: Validation set: Average loss: 0.1000, Accuracy: 9699/10000 (97%)
+2023-05-13 12:24:56,768 INFO: 
+batchsize:128, epoch:3, drop:0.2
+2023-05-13 12:24:56,789 INFO: Train Epoch: 3 [0/60000 (0%)]	Loss: 0.143075
+2023-05-13 12:24:59,535 INFO: Train Epoch: 3 [25600/60000 (43%)]	Loss: 0.040825
+2023-05-13 12:25:02,278 INFO: Train Epoch: 3 [51200/60000 (85%)]	Loss: 0.208353
+2023-05-13 12:25:04,126 INFO: Validation set: Average loss: 0.0824, Accuracy: 9738/10000 (97%)
+2023-05-13 12:25:04,127 INFO: 
+batchsize:128, epoch:4, drop:0.2
+2023-05-13 12:25:04,149 INFO: Train Epoch: 4 [0/60000 (0%)]	Loss: 0.118049
+2023-05-13 12:25:06,913 INFO: Train Epoch: 4 [25600/60000 (43%)]	Loss: 0.048895
+2023-05-13 12:25:09,701 INFO: Train Epoch: 4 [51200/60000 (85%)]	Loss: 0.116193
+2023-05-13 12:25:11,568 INFO: Validation set: Average loss: 0.0729, Accuracy: 9788/10000 (98%)
+2023-05-13 12:25:11,568 INFO: 
+batchsize:128, epoch:5, drop:0.2
+2023-05-13 12:25:11,589 INFO: Train Epoch: 5 [0/60000 (0%)]	Loss: 0.236876
+2023-05-13 12:25:14,352 INFO: Train Epoch: 5 [25600/60000 (43%)]	Loss: 0.069607
+2023-05-13 12:25:17,253 INFO: Train Epoch: 5 [51200/60000 (85%)]	Loss: 0.043289
+2023-05-13 12:25:19,158 INFO: Validation set: Average loss: 0.0713, Accuracy: 9780/10000 (98%)
+2023-05-13 12:25:19,159 INFO: 
+batchsize:128, epoch:6, drop:0.2
+2023-05-13 12:25:19,180 INFO: Train Epoch: 6 [0/60000 (0%)]	Loss: 0.053177
+2023-05-13 12:25:22,043 INFO: Train Epoch: 6 [25600/60000 (43%)]	Loss: 0.106357
+2023-05-13 12:25:24,977 INFO: Train Epoch: 6 [51200/60000 (85%)]	Loss: 0.012062
+2023-05-13 12:25:27,010 INFO: Validation set: Average loss: 0.0666, Accuracy: 9792/10000 (98%)
+2023-05-13 12:25:27,010 INFO: 
+batchsize:128, epoch:7, drop:0.2
+2023-05-13 12:25:27,033 INFO: Train Epoch: 7 [0/60000 (0%)]	Loss: 0.049445
+2023-05-13 12:25:29,973 INFO: Train Epoch: 7 [25600/60000 (43%)]	Loss: 0.047206
+2023-05-13 12:25:32,716 INFO: Train Epoch: 7 [51200/60000 (85%)]	Loss: 0.050040
+2023-05-13 12:25:34,619 INFO: Validation set: Average loss: 0.0809, Accuracy: 9769/10000 (98%)
+2023-05-13 12:25:34,619 INFO: 
+batchsize:128, epoch:8, drop:0.2
+2023-05-13 12:25:34,646 INFO: Train Epoch: 8 [0/60000 (0%)]	Loss: 0.034666
+2023-05-13 12:25:37,486 INFO: Train Epoch: 8 [25600/60000 (43%)]	Loss: 0.015842
+2023-05-13 12:25:40,128 INFO: Train Epoch: 8 [51200/60000 (85%)]	Loss: 0.019234
+2023-05-13 12:25:41,928 INFO: Validation set: Average loss: 0.0597, Accuracy: 9821/10000 (98%)
+2023-05-13 12:25:41,929 INFO: 
+batchsize:128, epoch:9, drop:0.2
+2023-05-13 12:25:41,949 INFO: Train Epoch: 9 [0/60000 (0%)]	Loss: 0.019097
+2023-05-13 12:25:44,565 INFO: Train Epoch: 9 [25600/60000 (43%)]	Loss: 0.009304
+2023-05-13 12:25:47,167 INFO: Train Epoch: 9 [51200/60000 (85%)]	Loss: 0.020143
+2023-05-13 12:25:48,985 INFO: Validation set: Average loss: 0.0594, Accuracy: 9834/10000 (98%)
+2023-05-13 12:25:48,986 INFO: 
+batchsize:128, epoch:10, drop:0.2
+2023-05-13 12:25:49,005 INFO: Train Epoch: 10 [0/60000 (0%)]	Loss: 0.006368
+2023-05-13 12:25:51,636 INFO: Train Epoch: 10 [25600/60000 (43%)]	Loss: 0.034829
+2023-05-13 12:25:54,377 INFO: Train Epoch: 10 [51200/60000 (85%)]	Loss: 0.057783
+2023-05-13 12:25:56,237 INFO: Validation set: Average loss: 0.0580, Accuracy: 9839/10000 (98%)
+2023-05-13 12:25:56,245 INFO: Finish training!

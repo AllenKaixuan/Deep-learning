@@ -9,18 +9,21 @@ import numpy as np
 
 
 class FFN(nn.Module):      # inherit from nn.Module
-    def __init__(self):
+    def __init__(self, dropp):
         super(FFN, self).__init__()
+        self.dropp = dropp
         self.fc1 = nn.Linear(28*28, 256)  # weight: [28*28, 50]   bias: [50, ]
-        self.fc1_drop = nn.Dropout(0.1)
+        self.fc1_drop = nn.Dropout(self.dropp)
         
         self.fc2 = nn.Linear(256, 196)
-        self.fc2_drop = nn.Dropout(0.1)
+        self.fc2_drop = nn.Dropout(self.dropp)
         self.fc3 = nn.Linear(196, 128)
-        self.fc3_drop = nn.Dropout(0.2)
+        self.fc3_drop = nn.Dropout(self.dropp)
         self.fc4 = nn.Linear(128, 10)
         
 #         self.relu1 = nn.ReLU() 
+
+       
 
     def forward(self, x):
         x = x.view(-1, 28*28)   # [32, 28*28]，对tensor进行reshape操作
